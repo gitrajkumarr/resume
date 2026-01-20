@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Details — Rajkumar Ramaraj</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Technology stack, leadership impact, achievements, community work, and client outcomes." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0d12; --card:#121621; --text:#e7ecf3; --muted:#9fb0c3; --border:#1f2433; --accent:#4f9cff; --accent-2:#2dd4bf; --link:#7ab3ff;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f6f8fb; --card:#ffffff; --text:#0f172a; --muted:#54677a; --border:#e5eaf0; --accent:#2563eb; --accent-2:#14b8a6; --link:#1d4ed8;
+      }
+    }
+    body{margin:0; background:var(--bg); color:var(--text); font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; line-height:1.6}
+    .container{max-width:980px; margin:0 auto; padding:28px 20px 64px;}
+    header{
+      display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
+      background:var(--card); border:1px solid var(--border); border-radius:16px; padding:18px 22px;
+    }
+    .crumbs{color:var(--muted)}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px;
+      background:transparent; color:var(--text); text-decoration:none;
+      font-weight:600; padding:10px 14px; border-radius:10px; border:1px solid var(--border);
+    }
+    .btn:hover{border-color:var(--accent); color:var(--link)}
+    main{margin-top:26px;}
+    section{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:22px; margin-bottom:18px;}
+    h1{font-size:1.25rem; margin:.2rem 0 .6rem}
+    h2{font-size:1.05rem; margin:.2rem 0 1rem}
+    .grid{display:grid; gap:14px}
+    @media(min-width:800px){.grid.cols-2{grid-template-columns:1fr 1fr;}}
+    .item{border:1px dashed var(--border); border-radius:12px; padding:14px;}
+    ul{margin:.2rem 0; padding-left:1.1rem}
+    .tags{display:flex; flex-wrap:wrap; gap:8px}
+    .tag{font-size:.85rem; padding:6px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted);}
+    footer{color:var(--muted); text-align:center; margin-top:16px}
+    a{color:var(--link)}
+    @media print{a[href]:after{content:""}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="crumbs">Rajkumar Ramaraj · Manager — Technology</div>
+      <nav>
+        <a class="btn" href="index.html">← Back to Overview</a>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="stack">
+        <h1 id="stack">Technology Stack</h1>
+        <div class="grid cols-2">
+          <div class="item">
+            <h2>Languages & Backend</h2>
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">C#/.NET</span><span class="tag">Node.js/TypeScript</span><span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Frontend</h2>
+            <div class="tags">
+              <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">Redux</span><span class="tag">Tailwind/MUI</span>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Cloud & DevOps</h2>
+            <div class="tags">
+              <span class="tag">Azure</span><span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Helm</span><span class="tag">Terraform</span><span class="tag">GitHub Actions</span><span class="tag">Azure DevOps</span><span class="tag">Jenkins</span>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Data & Streaming</h2>
+            <div class="tags">
+              <span class="tag">SQL Server</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">Redis</span><span class="tag">Kafka/Event Hubs</span>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Testing & Quality</h2>
+            <div class="tags">
+              <span class="tag">Jest</span><span class="tag">xUnit/NUnit/JUnit</span><span class="tag">Cypress/Playwright</span><span class="tag">SonarQube</span><span class="tag">Snyk</span>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Observability</h2>
+            <div class="tags">
+              <span class="tag">OpenTelemetry</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">ELK</span><span class="tag">App Insights/CloudWatch</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="leadership">
+        <h1 id="leadership">Leadership & Impact</h1>
+        <ul>
+          <li><strong>People:</strong> Grew team from <strong>[N → M]</strong>, defined growth plans, improved eNPS by <strong>[X]</strong> points.</li>
+          <li><strong>Process:</strong> Introduced Agile metrics (cycle time/throughput), value stream mapping; carryover ↓ <strong>[Y]%</strong>.</li>
+          <li><strong>Quality:</strong> Definition of Ready/Done, quality gates, risk registers; escaped defects ↓ <strong>[Z]%</strong>.</li>
+          <li><strong>Security:</strong> Shift-left (SAST/DAST), SBOMs, secrets scanning; least privilege IAM & network policies.</li>
+          <li><strong>Compliance:</strong> Drove SOC2/ISO27001 readiness (logging, encryption, retention policies).</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="achievements">
+        <h1 id="achievements">Achievements & Awards</h1>
+        <ul>
+          <li><strong>[Award/Recognition]</strong> for <em>[initiative/impact]</em>, [Company], <em>[YYYY]</em></li>
+          <li><strong>Hackathon Winner/Runner‑up</strong>, <em>[theme]</em>, <em>[YYYY]</em></li>
+          <li><strong>Patent/Disclosure</strong>: <em>[Title/ID]</em>, <em>[YYYY]</em></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="community">
+        <h1 id="community">Community & Thought Leadership</h1>
+        <ul>
+          <li>Speaker at <strong>[Meetup/Conference]</strong> on <em>[topic]</em>, <em>[YYYY]</em></li>
+          <li>Open‑source contributor to <strong>[project/repo]</strong>; authored <strong>[N]</strong> blog posts on <em>[topic]</em></li>
+          <li>Mentor in <strong>[program]</strong>; conducted <strong>[N]</strong> internal tech talks & workshops</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="outcomes">
+        <h1 id="outcomes">Select Client Outcomes / Metrics</h1>
+        <div class="grid cols-2">
+          <div class="item">
+            <h2>[Client/BU]</h2>
+            <p>Time‑to‑market ↓ <strong>[X]%</strong> via platform templates and CI/CD.</p>
+          </div>
+          <div class="item">
+            <h2>[Client/BU]</h2>
+            <p>Infra costs ↓ <strong>[Y]%</strong> using autoscaling & storage optimization.</p>
+          </div>
+          <div class="item">
+            <h2>[Client/BU]</h2>
+            <p>Customer NPS ↑ <strong>[Z]</strong> points after performance & reliability fixes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="interests">
+        <h1 id="interests">Interests</h1>
+        <p>Distance running · Open‑source tooling · Cloud cost optimization · Mentoring</p>
+      </section>
+
+      <section aria-labelledby="references">
+        <h1 id="references">References</h1>
+        <p>Available upon request</p>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="y"></span> Rajkumar Ramaraj · <a href="index.html">Overview</a>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+``
