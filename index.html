@@ -1,204 +1,259 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Rajkumar Ramaraj - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            background: #fff;
-            margin: 30px auto;
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .header {
-            display: flex;
-            align-items: center;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 15px;
-        }
-        .photo img {
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #2c3e50;
-        }
-        .title {
-            margin-left: 20px;
-        }
-        .title h1 {
-            margin: 0;
-            color: #2c3e50;
-        }
-        .title p {
-            margin: 4px 0;
-            color: #555;
-        }
-        h2 {
-            color: #2c3e50;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 25px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .skills span {
-            display: inline-block;
-            background: #e3ecf5;
-            padding: 6px 10px;
-            margin: 5px;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-        .job-title {
-            font-weight: bold;
-            color: #34495e;
-        }
-        .company {
-            font-style: italic;
-            color: #555;
-        }
-        .date {
-            float: right;
-            color: #777;
-            font-size: 14px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajkumar Ramaraj - Resume</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+body{
+    margin:0;
+    background:#0f172a;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.container{
+    max-width:950px;
+    margin:30px auto;
+    background:#ffffff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* HEADER */
+.header{
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+    color:white;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+.header img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid white;
+    object-fit:cover;
+}
+.header h1{
+    margin:0;
+    font-size:32px;
+}
+.header h3{
+    margin:5px 0;
+    font-weight:400;
+    opacity:0.9;
+}
+.contact{
+    margin-top:8px;
+    font-size:14px;
+}
+.contact i{
+    margin-right:8px;
+    color:#93c5fd;
+}
+
+/* CONTENT */
+.content{
+    padding:30px 40px;
+}
+.section{
+    margin-bottom:30px;
+}
+.section h2{
+    color:#1e293b;
+    border-left:5px solid #2563eb;
+    padding-left:10px;
+    margin-bottom:15px;
+    font-size:22px;
+}
+.section h2 i{
+    margin-right:8px;
+    color:#2563eb;
+}
+
+/* SKILLS */
+.skills span{
+    display:inline-block;
+    background:#e0ecff;
+    color:#1e3a8a;
+    padding:6px 12px;
+    margin:6px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:500;
+}
+
+/* JOB */
+.job{
+    margin-bottom:20px;
+}
+.job-title{
+    font-weight:700;
+    font-size:17px;
+    color:#0f172a;
+}
+.company{
+    font-style:italic;
+    color:#475569;
+}
+.date{
+    float:right;
+    font-size:14px;
+    color:#64748b;
+}
+.job ul{
+    margin-top:8px;
+}
+
+/* FOOTER LINE */
+hr{
+    border:none;
+    height:1px;
+    background:#e5e7eb;
+    margin:25px 0;
+}
+</style>
 </head>
+
 <body>
 
 <div class="container">
 
-    <!-- HEADER -->
-    <div class="header">
-        <div class="photo">
-            <img src="profile.jpg" alt="Profile Photo">
-        </div>
-        <div class="title">
-            <h1>Rajkumar Ramaraj</h1>
-            <p>Bangalore, India</p>
-            <p>📞 +91-9731567922 | ✉ rjkumar.ec@gmail.com</p>
-            <p>LinkedIn: linkedin.com/in/rajkumar-r-3aa50a45</p>
-            <p><strong>Java Technical Lead | Microservices | Cloud</strong></p>
+<!-- HEADER -->
+<div class="header">
+    <img src="profile.jpg" alt="Profile Photo">
+    <div>
+        <h1>Rajkumar Ramaraj</h1>
+        <h3>Java Technical Lead | Microservices | Cloud</h3>
+        <div class="contact">
+            <p><i class="fa-solid fa-location-dot"></i> Bangalore, India</p>
+            <p><i class="fa-solid fa-phone"></i> +91-9731567922</p>
+            <p><i class="fa-solid fa-envelope"></i> rjkumar.ec@gmail.com</p>
+            <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/rajkumar-r-3aa50a45</p>
         </div>
     </div>
+</div>
 
-    <!-- SUMMARY -->
-    <h2>Professional Summary</h2>
+<div class="content">
+
+<!-- SUMMARY -->
+<div class="section">
+    <h2><i class="fa-solid fa-user-tie"></i> Professional Summary</h2>
     <p>
-        Results-driven Java Technical Lead with 12+ years of experience in designing and delivering
-        enterprise-scale backend systems and microservices. Strong expertise in Spring Boot,
-        REST APIs, Kafka, and Azure Cloud. Proven track record in leading teams, building
-        scalable architectures, and delivering secure, high-performance solutions in banking
-        and fintech domains.
+        Java Technical Lead with 12+ years of experience in building enterprise-grade backend systems
+        and cloud-native microservices. Expertise in Spring Boot, REST APIs, Kafka, and Azure Cloud.
+        Strong leadership in delivering scalable, secure fintech and banking platforms.
     </p>
+</div>
 
-    <!-- SKILLS -->
-    <h2>Technical Skills</h2>
+<!-- SKILLS -->
+<div class="section">
+    <h2><i class="fa-solid fa-gears"></i> Technical Skills</h2>
     <div class="skills">
-        <span>Java 8–17</span>
-        <span>Spring Boot</span>
-        <span>Spring Cloud</span>
-        <span>Hibernate</span>
-        <span>REST APIs</span>
-        <span>Kafka</span>
-        <span>Azure Event Hub</span>
-        <span>Docker</span>
-        <span>Kubernetes</span>
-        <span>Azure DevOps</span>
-        <span>CI/CD</span>
-        <span>Oracle</span>
-        <span>MySQL</span>
-        <span>Redis</span>
-        <span>JUnit</span>
-        <span>Mockito</span>
-        <span>OAuth2</span>
-        <span>API Gateway</span>
-        <span>OWASP Security</span>
-        <span>Git</span>
-        <span>Bitbucket</span>
-        <span>Splunk</span>
-        <span>JIRA</span>
+        <span>Java 8–17</span><span>Spring Boot</span><span>Spring Cloud</span><span>Hibernate</span>
+        <span>REST APIs</span><span>Kafka</span><span>Azure Event Hub</span>
+        <span>Docker</span><span>Kubernetes</span><span>Azure DevOps</span><span>CI/CD</span>
+        <span>Oracle</span><span>MySQL</span><span>Redis</span>
+        <span>JUnit</span><span>Mockito</span>
+        <span>OAuth2</span><span>API Gateway</span><span>OWASP</span>
+        <span>Git</span><span>Bitbucket</span><span>Splunk</span><span>JIRA</span>
+    </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="section">
+    <h2><i class="fa-solid fa-briefcase"></i> Professional Experience</h2>
+
+    <div class="job">
+        <div class="job-title">
+            Mashreq Bank – Assistant Manager
+            <span class="date">May 2022 – Present</span>
+        </div>
+        <div class="company">Bangalore, India</div>
+        <strong>Project: QuickRemit</strong>
+        <ul>
+            <li>Designed microservices for secure real-time cross-border payments.</li>
+            <li>Led Kafka-based event-driven architecture and API integrations.</li>
+            <li>Handled production releases and monitoring.</li>
+        </ul>
+
+        <strong>Project: Notification Hub</strong>
+        <ul>
+            <li>Built centralized notification platform for SMS, email, and push.</li>
+            <li>Implemented Spring Cloud Stream with Kafka.</li>
+        </ul>
     </div>
 
-    <!-- EXPERIENCE -->
-    <h2>Professional Experience</h2>
+    <hr>
 
-    <p class="job-title">
-        Mashreq Bank – Assistant Manager
-        <span class="date">May 2022 – Present</span>
-    </p>
-    <p class="company">Bangalore, India</p>
-    <strong>Project: QuickRemit (Cross-border Payment Platform)</strong>
-    <ul>
-        <li>Designed and developed secure microservices for real-time international remittance.</li>
-        <li>Led solution architecture using Spring Boot and Kafka-based event streaming.</li>
-        <li>Integrated multiple internal banking systems and external partners.</li>
-        <li>Handled production deployments, approvals, and post-release monitoring.</li>
-    </ul>
-    <strong>Project: Notification Hub</strong>
-    <ul>
-        <li>Built centralized notification service for SMS, email, and push channels.</li>
-        <li>Implemented event-driven architecture using Spring Cloud Stream and Kafka.</li>
-        <li>Defined API contracts and performed end-to-end testing.</li>
-    </ul>
+    <div class="job">
+        <div class="job-title">
+            FIS – Programmer Analyst
+            <span class="date">Mar 2019 – May 2022</span>
+        </div>
+        <div class="company">Bangalore, India</div>
+        <ul>
+            <li>Enhanced banking microservices and mentored developers.</li>
+            <li>Fixed OWASP security vulnerabilities.</li>
+            <li>Coordinated offshore and onsite teams.</li>
+        </ul>
+    </div>
 
-    <p class="job-title">
-        FIS – Programmer Analyst
-        <span class="date">Mar 2019 – May 2022</span>
-    </p>
-    <p class="company">Bangalore, India</p>
-    <ul>
-        <li>Developed and enhanced core banking microservices.</li>
-        <li>Mentored junior developers and conducted code reviews.</li>
-        <li>Implemented OWASP security standards and fixed vulnerability findings.</li>
-        <li>Coordinated offshore development and onsite stakeholders.</li>
-    </ul>
+    <hr>
 
-    <p class="job-title">
-        Infosys / EdgeVerve – Senior System Engineer
-        <span class="date">Nov 2013 – Dec 2018</span>
-    </p>
-    <p class="company">Bangalore, India</p>
-    <ul>
-        <li>Developed banking features for Finacle retail e-banking platform.</li>
-        <li>Optimized performance and improved customer usability.</li>
-        <li>Managed deployments using Jenkins and handled production support.</li>
-    </ul>
+    <div class="job">
+        <div class="job-title">
+            Infosys / EdgeVerve – Senior System Engineer
+            <span class="date">Nov 2013 – Dec 2018</span>
+        </div>
+        <div class="company">Bangalore, India</div>
+        <ul>
+            <li>Developed Finacle retail banking modules.</li>
+            <li>Handled Jenkins deployments and production support.</li>
+        </ul>
+    </div>
 
-    <p class="job-title">
-        Bind Technology – Java Developer
-        <span class="date">Jul 2011 – Oct 2013</span>
-    </p>
-    <p class="company">Chennai, India</p>
-    <ul>
-        <li>Developed job portal, alumni management, and training modules.</li>
-        <li>Delivered full-stack features customized for colleges and recruiters.</li>
-    </ul>
+    <hr>
 
-    <!-- EDUCATION -->
-    <h2>Education</h2>
+    <div class="job">
+        <div class="job-title">
+            Bind Technology – Java Developer
+            <span class="date">Jul 2011 – Oct 2013</span>
+        </div>
+        <div class="company">Chennai, India</div>
+        <ul>
+            <li>Developed job portal and alumni management modules.</li>
+            <li>Delivered full-cycle project implementations.</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
     <p>
-        <strong>Bachelor of Engineering (ECE)</strong><br/>
-        M.A.M. College of Engineering, Trichy – 2009<br/>
-        Affiliated to Anna University | 75% Aggregate
+        <strong>B.E – Electronics & Communication</strong><br>
+        M.A.M College of Engineering, Trichy (2009) – Anna University<br>
+        <strong>75% Aggregate</strong>
     </p>
+</div>
 
-    <!-- CERTIFICATIONS -->
-    <h2>Certifications</h2>
+<!-- CERTIFICATION -->
+<div class="section">
+    <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
     <ul>
         <li>Oracle Certified Java Programmer (OCP)</li>
     </ul>
+</div>
 
+</div>
 </div>
 
 </body>
