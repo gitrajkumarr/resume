@@ -1,165 +1,205 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Details — Rajkumar Ramaraj</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Technology stack, leadership impact, achievements, community work, and client outcomes." />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0b0d12; --card:#121621; --text:#e7ecf3; --muted:#9fb0c3; --border:#1f2433; --accent:#4f9cff; --accent-2:#2dd4bf; --link:#7ab3ff;
-    }
-    @media (prefers-color-scheme: light){
-      :root{
-        --bg:#f6f8fb; --card:#ffffff; --text:#0f172a; --muted:#54677a; --border:#e5eaf0; --accent:#2563eb; --accent-2:#14b8a6; --link:#1d4ed8;
-      }
-    }
-    body{margin:0; background:var(--bg); color:var(--text); font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; line-height:1.6}
-    .container{max-width:980px; margin:0 auto; padding:28px 20px 64px;}
-    header{
-      display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
-      background:var(--card); border:1px solid var(--border); border-radius:16px; padding:18px 22px;
-    }
-    .crumbs{color:var(--muted)}
-    .btn{
-      display:inline-flex; align-items:center; gap:8px;
-      background:transparent; color:var(--text); text-decoration:none;
-      font-weight:600; padding:10px 14px; border-radius:10px; border:1px solid var(--border);
-    }
-    .btn:hover{border-color:var(--accent); color:var(--link)}
-    main{margin-top:26px;}
-    section{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:22px; margin-bottom:18px;}
-    h1{font-size:1.25rem; margin:.2rem 0 .6rem}
-    h2{font-size:1.05rem; margin:.2rem 0 1rem}
-    .grid{display:grid; gap:14px}
-    @media(min-width:800px){.grid.cols-2{grid-template-columns:1fr 1fr;}}
-    .item{border:1px dashed var(--border); border-radius:12px; padding:14px;}
-    ul{margin:.2rem 0; padding-left:1.1rem}
-    .tags{display:flex; flex-wrap:wrap; gap:8px}
-    .tag{font-size:.85rem; padding:6px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted);}
-    footer{color:var(--muted); text-align:center; margin-top:16px}
-    a{color:var(--link)}
-    @media print{a[href]:after{content:""}}
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rajkumar Ramaraj - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            background: #fff;
+            margin: 30px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+        }
+        .photo img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #2c3e50;
+        }
+        .title {
+            margin-left: 20px;
+        }
+        .title h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        .title p {
+            margin: 4px 0;
+            color: #555;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #e3ecf5;
+            padding: 6px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #34495e;
+        }
+        .company {
+            font-style: italic;
+            color: #555;
+        }
+        .date {
+            float: right;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="crumbs">Rajkumar Ramaraj · Manager — Technology</div>
-      <nav>
-        <a class="btn" href="index.html">← Back to Overview</a>
-      </nav>
-    </header>
 
-    <main>
-      <section aria-labelledby="stack">
-        <h1 id="stack">Technology Stack</h1>
-        <div class="grid cols-2">
-          <div class="item">
-            <h2>Languages & Backend</h2>
-            <div class="tags">
-              <span class="tag">Java</span><span class="tag">C#/.NET</span><span class="tag">Node.js/TypeScript</span><span class="tag">Python</span>
-            </div>
-          </div>
-          <div class="item">
-            <h2>Frontend</h2>
-            <div class="tags">
-              <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">Redux</span><span class="tag">Tailwind/MUI</span>
-            </div>
-          </div>
-          <div class="item">
-            <h2>Cloud & DevOps</h2>
-            <div class="tags">
-              <span class="tag">Azure</span><span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Helm</span><span class="tag">Terraform</span><span class="tag">GitHub Actions</span><span class="tag">Azure DevOps</span><span class="tag">Jenkins</span>
-            </div>
-          </div>
-          <div class="item">
-            <h2>Data & Streaming</h2>
-            <div class="tags">
-              <span class="tag">SQL Server</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">Redis</span><span class="tag">Kafka/Event Hubs</span>
-            </div>
-          </div>
-          <div class="item">
-            <h2>Testing & Quality</h2>
-            <div class="tags">
-              <span class="tag">Jest</span><span class="tag">xUnit/NUnit/JUnit</span><span class="tag">Cypress/Playwright</span><span class="tag">SonarQube</span><span class="tag">Snyk</span>
-            </div>
-          </div>
-          <div class="item">
-            <h2>Observability</h2>
-            <div class="tags">
-              <span class="tag">OpenTelemetry</span><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">ELK</span><span class="tag">App Insights/CloudWatch</span>
-            </div>
-          </div>
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="photo">
+            <img src="profile.jpg" alt="Profile Photo">
         </div>
-      </section>
-
-      <section aria-labelledby="leadership">
-        <h1 id="leadership">Leadership & Impact</h1>
-        <ul>
-          <li><strong>People:</strong> Grew team from <strong>[N → M]</strong>, defined growth plans, improved eNPS by <strong>[X]</strong> points.</li>
-          <li><strong>Process:</strong> Introduced Agile metrics (cycle time/throughput), value stream mapping; carryover ↓ <strong>[Y]%</strong>.</li>
-          <li><strong>Quality:</strong> Definition of Ready/Done, quality gates, risk registers; escaped defects ↓ <strong>[Z]%</strong>.</li>
-          <li><strong>Security:</strong> Shift-left (SAST/DAST), SBOMs, secrets scanning; least privilege IAM & network policies.</li>
-          <li><strong>Compliance:</strong> Drove SOC2/ISO27001 readiness (logging, encryption, retention policies).</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="achievements">
-        <h1 id="achievements">Achievements & Awards</h1>
-        <ul>
-          <li><strong>[Award/Recognition]</strong> for <em>[initiative/impact]</em>, [Company], <em>[YYYY]</em></li>
-          <li><strong>Hackathon Winner/Runner‑up</strong>, <em>[theme]</em>, <em>[YYYY]</em></li>
-          <li><strong>Patent/Disclosure</strong>: <em>[Title/ID]</em>, <em>[YYYY]</em></li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="community">
-        <h1 id="community">Community & Thought Leadership</h1>
-        <ul>
-          <li>Speaker at <strong>[Meetup/Conference]</strong> on <em>[topic]</em>, <em>[YYYY]</em></li>
-          <li>Open‑source contributor to <strong>[project/repo]</strong>; authored <strong>[N]</strong> blog posts on <em>[topic]</em></li>
-          <li>Mentor in <strong>[program]</strong>; conducted <strong>[N]</strong> internal tech talks & workshops</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="outcomes">
-        <h1 id="outcomes">Select Client Outcomes / Metrics</h1>
-        <div class="grid cols-2">
-          <div class="item">
-            <h2>[Client/BU]</h2>
-            <p>Time‑to‑market ↓ <strong>[X]%</strong> via platform templates and CI/CD.</p>
-          </div>
-          <div class="item">
-            <h2>[Client/BU]</h2>
-            <p>Infra costs ↓ <strong>[Y]%</strong> using autoscaling & storage optimization.</p>
-          </div>
-          <div class="item">
-            <h2>[Client/BU]</h2>
-            <p>Customer NPS ↑ <strong>[Z]</strong> points after performance & reliability fixes.</p>
-          </div>
+        <div class="title">
+            <h1>Rajkumar Ramaraj</h1>
+            <p>Bangalore, India</p>
+            <p>📞 +91-9731567922 | ✉ rjkumar.ec@gmail.com</p>
+            <p>LinkedIn: linkedin.com/in/rajkumar-r-3aa50a45</p>
+            <p><strong>Java Technical Lead | Microservices | Cloud</strong></p>
         </div>
-      </section>
+    </div>
 
-      <section aria-labelledby="interests">
-        <h1 id="interests">Interests</h1>
-        <p>Distance running · Open‑source tooling · Cloud cost optimization · Mentoring</p>
-      </section>
+    <!-- SUMMARY -->
+    <h2>Professional Summary</h2>
+    <p>
+        Results-driven Java Technical Lead with 12+ years of experience in designing and delivering
+        enterprise-scale backend systems and microservices. Strong expertise in Spring Boot,
+        REST APIs, Kafka, and Azure Cloud. Proven track record in leading teams, building
+        scalable architectures, and delivering secure, high-performance solutions in banking
+        and fintech domains.
+    </p>
 
-      <section aria-labelledby="references">
-        <h1 id="references">References</h1>
-        <p>Available upon request</p>
-      </section>
-    </main>
+    <!-- SKILLS -->
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>Java 8–17</span>
+        <span>Spring Boot</span>
+        <span>Spring Cloud</span>
+        <span>Hibernate</span>
+        <span>REST APIs</span>
+        <span>Kafka</span>
+        <span>Azure Event Hub</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>Azure DevOps</span>
+        <span>CI/CD</span>
+        <span>Oracle</span>
+        <span>MySQL</span>
+        <span>Redis</span>
+        <span>JUnit</span>
+        <span>Mockito</span>
+        <span>OAuth2</span>
+        <span>API Gateway</span>
+        <span>OWASP Security</span>
+        <span>Git</span>
+        <span>Bitbucket</span>
+        <span>Splunk</span>
+        <span>JIRA</span>
+    </div>
 
-    <footer>
-      © <span id="y"></span> Rajkumar Ramaraj · <a href="index.html">Overview</a>
-    </footer>
-  </div>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+    <!-- EXPERIENCE -->
+    <h2>Professional Experience</h2>
+
+    <p class="job-title">
+        Mashreq Bank – Assistant Manager
+        <span class="date">May 2022 – Present</span>
+    </p>
+    <p class="company">Bangalore, India</p>
+    <strong>Project: QuickRemit (Cross-border Payment Platform)</strong>
+    <ul>
+        <li>Designed and developed secure microservices for real-time international remittance.</li>
+        <li>Led solution architecture using Spring Boot and Kafka-based event streaming.</li>
+        <li>Integrated multiple internal banking systems and external partners.</li>
+        <li>Handled production deployments, approvals, and post-release monitoring.</li>
+    </ul>
+    <strong>Project: Notification Hub</strong>
+    <ul>
+        <li>Built centralized notification service for SMS, email, and push channels.</li>
+        <li>Implemented event-driven architecture using Spring Cloud Stream and Kafka.</li>
+        <li>Defined API contracts and performed end-to-end testing.</li>
+    </ul>
+
+    <p class="job-title">
+        FIS – Programmer Analyst
+        <span class="date">Mar 2019 – May 2022</span>
+    </p>
+    <p class="company">Bangalore, India</p>
+    <ul>
+        <li>Developed and enhanced core banking microservices.</li>
+        <li>Mentored junior developers and conducted code reviews.</li>
+        <li>Implemented OWASP security standards and fixed vulnerability findings.</li>
+        <li>Coordinated offshore development and onsite stakeholders.</li>
+    </ul>
+
+    <p class="job-title">
+        Infosys / EdgeVerve – Senior System Engineer
+        <span class="date">Nov 2013 – Dec 2018</span>
+    </p>
+    <p class="company">Bangalore, India</p>
+    <ul>
+        <li>Developed banking features for Finacle retail e-banking platform.</li>
+        <li>Optimized performance and improved customer usability.</li>
+        <li>Managed deployments using Jenkins and handled production support.</li>
+    </ul>
+
+    <p class="job-title">
+        Bind Technology – Java Developer
+        <span class="date">Jul 2011 – Oct 2013</span>
+    </p>
+    <p class="company">Chennai, India</p>
+    <ul>
+        <li>Developed job portal, alumni management, and training modules.</li>
+        <li>Delivered full-stack features customized for colleges and recruiters.</li>
+    </ul>
+
+    <!-- EDUCATION -->
+    <h2>Education</h2>
+    <p>
+        <strong>Bachelor of Engineering (ECE)</strong><br/>
+        M.A.M. College of Engineering, Trichy – 2009<br/>
+        Affiliated to Anna University | 75% Aggregate
+    </p>
+
+    <!-- CERTIFICATIONS -->
+    <h2>Certifications</h2>
+    <ul>
+        <li>Oracle Certified Java Programmer (OCP)</li>
+    </ul>
+
+</div>
+
 </body>
 </html>
-``
